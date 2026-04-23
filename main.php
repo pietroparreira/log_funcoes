@@ -1,4 +1,7 @@
 <?php
 
-// funções em PHP
-echo "na aula do dia 23/04/2026 eu aprendi a mexer no Github/Gite desenvolver funções no PHP! =D";
+function somar($a, $b, $c)
+{
+    return $a + $b + $c;
+}
+echo "Resultado: ", somar(5, 7, 3);
