@@ -1,0 +1,3 @@
+<?php
+
+// funções em PHP
