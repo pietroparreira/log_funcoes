@@ -21,3 +21,31 @@ echo "Libra para real: ", libraParareal(50, 6.71), "\n";
 use function conversao\ieneParareal;
 
 echo "Ine para real: ", ieneParareal(50, 0.031), "\n";
+
+
+
+
+
+
+
+
+
+use function geometria\areaQuadrado;
+
+echo "area do quadrado: ", areaQuadrado(18), "\n";
+
+use function geometria\areaRetangulo;
+
+echo "area do retangulo: ", areaRetangulo(18, 9), "\n";
+
+use function geometria\areaTriangulo;
+
+echo "area do triangulo: ", areaTriangulo(2, 12), "\n";
+
+use function geometria\areaCirculo;
+
+echo "area do circulo: ", areaCirculo(5, 10, 20), "\n";
+
+use function geometria\areaTrapezio;
+
+echo "area do trapezio: ", areaTrapezio(5, 10, 20), "\n";
