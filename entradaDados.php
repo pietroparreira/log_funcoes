@@ -49,3 +49,26 @@ echo "area do circulo: ", areaCirculo(5, 10, 20), "\n";
 use function geometria\areaTrapezio;
 
 echo "area do trapezio: ", areaTrapezio(5, 10, 20), "\n";
+
+
+
+
+use function saude\calcularImc;
+
+echo "calculo do IMC: ", calcularImc(84, 1.75), "\n";
+
+use function saude\valorIdealAgua;
+
+echo "calculo do valor ideal de agua: ", valorIdealAgua(84, 35), "\n";
+
+use function saude\frequenciaCardiacaMaxima;
+
+echo " frequencia cardiaca maxima: ", frequenciaCardiacaMaxima(16, 0.220), "\n";
+
+use function saude\converterLibrasParaQuilo;
+
+echo "libras para quilo: ", converterLibrasParaQuilo(12, 0.4536), "\n";
+
+use function saude\calcularCaloriasBasais;
+
+echo "calorias basais: ", calcularCaloriasBasais(80, 175, 16, "masculino"), "\n";
