@@ -72,3 +72,38 @@ echo "libras para quilo: ", converterLibrasParaQuilo(12, 0.4536), "\n";
 use function saude\calcularCaloriasBasais;
 
 echo "calorias basais: ", calcularCaloriasBasais(80, 175, 16, "masculino"), "\n";
+
+
+
+$opcaoPrincipal = "";
+$opcaoConversao = "";
+
+while ($opcaoPrincipal != 4) {
+    echo " MENU PRINCIPAL";
+    1 - "conversao";
+    4 - "Sair\n";
+    $opcaoPrincipal = readline(">>> ");
+
+    switch ($opcaoPrincipal) {
+        case 1:
+            while ($opcaoConversao != 6) {
+                echo "Menu Principal";
+                1 - "Dolar para Real";
+                6 - "Sair\n";
+                $opcaoConversao = readline(">>> ");
+                switch ($opcaoConversao) {
+                    case 1:
+                        $valor = readline("Digite a quantidade de dolares:");
+                        $dolarcotacao = readline("Digite o valor da cotacao atual do dolar:");
+                        echo "Valor em real(R$): ", dolarParareal($valor, $dolarcotacao), "\n";
+                        break;
+
+                    case 6:
+                        echo "Saindo...";
+                        break;
+                    default:
+                        echo "opcao invalida!\n\n";
+                }
+            }
+    }
+}
